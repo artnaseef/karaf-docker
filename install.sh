@@ -20,7 +20,7 @@ set -e
 set -x
 
 KARAF_VERSION="4.3.3"
-MAVEN_CENTRAL_BASE_URL="http://central.maven.org/maven2"
+MAVEN_CENTRAL_BASE_URL="https://repo1.maven.org/maven2"
 MAVEN_KARAF_BASE_URL="${MAVEN_CENTRAL_BASE_URL}/org/apache/karaf/apache-karaf"
 
 KARAF_PKG_FILENAME="apache-karaf-${KARAF_VERSION}.tar.gz"
