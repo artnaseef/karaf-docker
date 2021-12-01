@@ -19,7 +19,7 @@
 set -e
 set -x
 
-KARAF_VERSION="4.0.6"
+KARAF_VERSION="4.3.3"
 MAVEN_CENTRAL_BASE_URL="http://central.maven.org/maven2"
 MAVEN_KARAF_BASE_URL="${MAVEN_CENTRAL_BASE_URL}/org/apache/karaf/apache-karaf"
 

@@ -10,15 +10,15 @@ This docker image provides a vanilla Karaf installation.
 Home directory is `/opt/karaf`
 
 # Directories
-`/opt/karaf` home directory contains a subdirectory named based on the version of karaf: `/opt/karaf/apache-karaf-${version}`.  This is the karaf root directory (`KARAF_HOME` and `KARAF_BASE`).  For example, for version 4.0.6, the actual path is `/opt/karaf/apache-karaf-4.0.6`.
+`/opt/karaf` home directory contains a subdirectory named based on the version of karaf: `/opt/karaf/apache-karaf-${version}`.  This is the karaf root directory (`KARAF_HOME` and `KARAF_BASE`).  For example, for version 4.3.3, the actual path is `/opt/karaf/apache-karaf-4.3.3`.
 
 A symbolic link to the versioned directory exists at `/opt/karaf/apache-karaf`.
 
 The `etc`, `deploy`, and other karaf folders all reside at their usual location under the karaf root directory.
 
 # Example use
-    docker pull artnaseef/karaf:4.0.6
-    docker container create --name karaf -p 8101:8101 -p 8181:8181 artnaseef/karaf:4.0.6
+    docker pull artnaseef/karaf:4.3.3
+    docker container create --name karaf -p 8101:8101 -p 8181:8181 artnaseef/karaf:4.3.3
     
     # Start the karaf container attaching the foreground to the karaf console
     docker start -a karaf
